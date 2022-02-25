@@ -52,7 +52,7 @@ export default function Contact() {
                     rows="3"
                   ></textarea>
                 </div>
-                <button type="submit" className="btn btn-outline-primary">
+                <button type="submit" className="btn btn-outline-primary rounded-pill">
                   Send Message
                   <i className="fa fa-paper-plane ms-2"></i>
                 </button>

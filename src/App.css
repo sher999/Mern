@@ -1,14 +1,28 @@
-#home{
-    background: rgb(0,101,200);
-    background:linear-gradient(90deg,rgb(0,101,200), rgba(0,212,255, 1)100%) ;
-    min-height: 500px;
+#home {
+  background: rgb(0, 101, 200);
+  background: linear-gradient(
+    90deg,
+    rgb(0, 101, 200),
+    rgba(0, 212, 255, 1) 100%
+  );
+  min-height: 500px;
 }
 
-.card{
-    transition: all 0.5s ease;
+.card {
+  transition: all 0.5s ease;
 }
 
-.card:hover{
-    cursor: pointer;
-    box-shadow: 0.5rem 1rem rgba(0, 0, 0, .15);
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.form {
+  background: rgb(0, 101, 200);
+  background: linear-gradient(
+    90deg,
+    rgb(0, 101, 200)30%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  min-height: 500px;
 }
